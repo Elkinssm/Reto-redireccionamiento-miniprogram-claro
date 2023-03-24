@@ -1,0 +1,14 @@
+page {
+  padding-top: 5px;
+  background: #f7f7f7;
+  
+}
+
+
+button {
+  border-radius: 15px;
+  background-color: #fd0f0f;
+  color: #ffffff;
+  width: 200px;
+  font-weight: bolder;
+}

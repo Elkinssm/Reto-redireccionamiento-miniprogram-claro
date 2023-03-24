@@ -1,0 +1,28 @@
+<view class="body">
+
+  <view class="user-info">
+    <view>Nombre: {{nombre}}</view>
+    <view>Edad: {{edad}}</view>
+    <view>Fecha: {{fecha}}</view>
+  </view>
+
+  <view class="buttons">
+    <view class="google-link">
+      <button onTap="google" size="default" >Google</button>
+    </view>
+
+    <view class="facebook-link">
+      <button onTap="facebook" size="default" >Facebook</button>
+    </view>
+  </view>
+
+
+
+
+  <web-view a:if={{google}} src="https://www.google.com/?hl=es" onMessage="google">
+  </web-view>
+
+  <web-view a:if={{facebook}} src="https://www.facebook.com/" onMessage="facebook">
+  </web-view>
+
+</view>
