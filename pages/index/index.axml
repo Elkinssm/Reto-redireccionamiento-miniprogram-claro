@@ -17,12 +17,11 @@
   </view>
 
 
-
-
   <web-view a:if={{google}} src="https://www.google.com/?hl=es" onMessage="google">
   </web-view>
 
   <web-view a:if={{facebook}} src="https://www.facebook.com/" onMessage="facebook">
   </web-view>
+  
 
 </view>
